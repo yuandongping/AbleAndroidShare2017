@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/share_trans_33">
+    <!--android:background="@color/share_trans_33"-->
+
+
+    <TextView
+        android:id="@+id/cancel_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/share_white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/share_black"
+        android:textSize="18sp" />
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/cancel_tv"
+        android:background="@color/share_white_ee"
+        android:horizontalSpacing="0dp"
+        android:numColumns="4"
+        android:verticalSpacing="0dp" />
+
+</RelativeLayout>

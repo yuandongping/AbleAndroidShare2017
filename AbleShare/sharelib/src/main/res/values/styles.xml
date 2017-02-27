@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<style name="AppTransTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+
+
+    <!--<style name="LibAppTransTheme" parent="Theme.AppCompat.Light.Dialog.Alert">-->
+    <style name="LibAppTransTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/share_trans_33</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+</resources>

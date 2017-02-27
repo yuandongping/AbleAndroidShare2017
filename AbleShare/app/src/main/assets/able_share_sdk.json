@@ -1,0 +1,20 @@
+[
+  {
+    "Id":"1",//新浪微博
+    "SortId":"1",
+    "AppKey":"2874733904",//* 必填
+    "AppSecret":"",
+    "RedirectUrl":"http://bigline.com.hk",
+    "ShareByAppClient":"true",
+    "Enable":"true"
+  },
+  {
+    "Id":"2",//微信
+    "SortId":"2",
+    "AppKey":"wxfb96702845610e12",
+    "AppSecret":"",
+    "RedirectUrl":"http://bigline.com.hk",
+    "ShareByAppClient":"true",
+    "Enable":"true"
+  }
+]
